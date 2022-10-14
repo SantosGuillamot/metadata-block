@@ -1,0 +1,21 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "sg/metadata",
+	"version": "0.1.0",
+	"title": "SG - Metadata Field",
+	"category": "text",
+	"icon": "flag",
+	"description": "",
+	"textdomain": "bhe",
+	"attributes": {
+		"fieldName": {
+			"type": "string",
+			"default": ""
+		}
+	},
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./style.css",
+	"style": "file:./style-index.css",
+	"render": "file:./render.php"
+}
